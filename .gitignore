@@ -1,0 +1,34 @@
+# Compiled binaries & test artifacts
+*.test
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Profiling and coverage
+*.prof
+*.pprof
+*.cover
+coverage.txt
+coverage.out
+cpu.pprof
+mem.pprof
+trace.out
+
+# Go workspace and vendor (if any)
+go.work
+go.work.sum
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
